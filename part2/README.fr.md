@@ -1,6 +1,7 @@
 # Labo AD, partie 2 : gérer une vraie entreprise avec PowerShell
 
 🇬🇧 [English version](README.md)
+⬅️ [Retour à la partie 1 : construction du labo](../README.md)
 
 La partie 1 a bâti le labo : domaine **lab.local**, contrôleur de domaine **DC01** (Windows Server 2022) et poste client **PC01** (Windows 11).
 La partie 2 le gère comme un vrai service informatique. Chaque changement vient d'un **billet**, se fait dans **PowerShell**, puis est **prouvé dans le journal Sécurité de Windows**. Les prochaines missions envoient ces journaux dans **Splunk**.

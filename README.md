@@ -2,6 +2,8 @@
 
 A small company network built on my laptop with VirtualBox: a **Windows Server 2022 domain controller** managing users, groups, file-share permissions and security policies for a **Windows 11** workstation.
 
+> **➡️ Part 2 is here: [Running a real company with PowerShell (tickets + Windows Security logs)](part2/README.md)** · 🇫🇷 [Version française](part2/README.fr.md)
+
 **Tools:** Oracle VirtualBox 7.1 · Windows Server 2022 (evaluation) · Windows 11 Enterprise (evaluation)
 
 ## Skills demonstrated
@@ -97,5 +99,5 @@ All 9 user-to-folder combinations tested from PC01:
 ![Problem: permissions on the parent folder](18-problem-it-on-shares.png)
 
 ## Next steps
-- Automate user creation with PowerShell
-- Send DC01's security logs to a SIEM (Wazuh) and detect the lockout
+- ✅ Started in **[Part 2](part2/README.md)**: managing AD with PowerShell from tickets, and proving each change in the Windows Security logs
+- Send DC01's security logs to a SIEM (Splunk) and detect the lockout (coming in Part 2)

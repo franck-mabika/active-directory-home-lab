@@ -1,6 +1,7 @@
 # AD Lab Part 2: Running a Real Company with PowerShell
 
 🇫🇷 [Version française](README.fr.md)
+⬅️ [Back to Part 1: building the lab](../README.md)
 
 Part 1 built the lab: domain **lab.local**, domain controller **DC01** (Windows Server 2022) and client **PC01** (Windows 11).
 Part 2 runs it like a real IT department. Every change comes from a **ticket**, is done in **PowerShell**, and is then **proven in the Windows Security logs**. Later missions send these logs to **Splunk**.
